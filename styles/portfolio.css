@@ -43,11 +43,12 @@ nav ul {
 }
 
 .header {
+    width: 1300px;
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%, left;
-    margin: 50px;
+    background-position: 600px 300px, left;
+    margin: 0 auto;
 }
 
 /* banner style */
@@ -57,9 +58,14 @@ nav ul {
     margin: 50px 100px;
 }
 
+/* .btn{
+    justify-content:space-evenly;
+} */
+
 .btn-contact{
-    width: 150px;
-height: 64px;
+    width: 140px;
+    height: 55px;
+    border-radius: 5px;
 }
 
 .title {
